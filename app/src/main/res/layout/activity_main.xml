@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_launcher_background"
+
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <Button
+            android:id="@+id/nupp1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/loomaaed"/>
+        <Button
+            android:id="@+id/nupp2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nupp1"
+            android:text="@string/nupp2"/>
+        <Button
+            android:id="@+id/nupp3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nupp2"
+            android:text="@string/nupp3"/>
+        <Button
+            android:id="@+id/nupp4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nupp3"
+            android:text="@string/nupp4"/>
+        <Button
+            android:id="@+id/nupp5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nupp4"
+            android:text="@string/nupp5"
+            />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
